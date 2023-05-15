@@ -10,7 +10,7 @@ h1{
     color:black;
     font-weight: bold;
 }
-.name-mark{
+.orange-mark{
     color: orange;
 }
 .half-width{
@@ -19,6 +19,12 @@ h1{
     margin-left: 5%;
     padding-left: 2%;
   
+
+}
+
+.images{
+    width: 290px;
+    height: 470px;
 
 }
 
@@ -47,4 +53,36 @@ section{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+   
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, pink);
+    border-image-slice: 1;
+}
+
+footer{
+    font-size: 15px;
+    text-align: center;
+    
 }
